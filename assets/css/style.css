@@ -1,0 +1,23 @@
+
+#cf-contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+#cf-contact-form input, #cf-contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#cf-contact-form button {
+    padding: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#cf-contact-form button:hover {
+    background-color: #005f8d;
+}
